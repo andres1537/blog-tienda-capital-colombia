@@ -1,0 +1,107 @@
+# Site settings
+title:       Blog Tienda Capital
+email:       info@tiendacapital.com
+author:      info@tiendacapital.com
+description: "Tienda Capital tu sitio de confianza para compras online."
+baseurl:     ""
+url:         "http://blog.tiendacapital.com"
+image:       "http://blog.tiendacapital.com/img/shopping-bag.png"
+date_format: "%b %-d, %Y"
+
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics: UA-88223235-4
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Optional features
+animated:             false
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    false
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: false
+enable_anchorjs: false
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: true
+fb_page_id: 179125239099052
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: tiendacapitalcolombia
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid: 1794151104183989
+facebook_comments_number: 10
+
+# Social icons
+github_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username: tiendacapitalco
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: true
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: 'Más nuevo'
+    older: 'Más viejo'
+  share_buttons:
+    text:         '¡Compartir este post!'
+    facebook:     'Compartir en Facebook'
+    twitter:      'Compartir en Twitter'
+    googleplus:   'Compartir en Google+'
+    linkedin:     'Compartir en LinkedIn'
+    digg:         'Compartir en Digg'
+    tumblr:       'Compartir en Tumblr'
+    reddit:       'Compartir en Reddit'
+    stumbleupon:  'Compartir en StumbleUpon'
+    hackernews:   'Compartir en Hacker News'
+  post:
+    updated:        'Actualizado'
+    minute_read:    'minutos para leer'
+    related_posts:  'Posts relacionados'
+  index:
+    coming_soon: 'Próximamente...'
+  og_locale: 'es_ES'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  compressed: true
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+exclude: [vendor]
