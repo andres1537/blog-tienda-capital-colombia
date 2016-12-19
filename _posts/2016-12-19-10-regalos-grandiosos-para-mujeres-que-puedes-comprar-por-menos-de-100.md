@@ -2,7 +2,7 @@
 layout:     post
 title:     	10 regalos grandiosos para mujeres que puedes comprar por menos de $ 100.000
 date:       2016-12-19 15:00:00
-summary:    Regalos perfectos de navidad para ellas que puedes comprar por menos de $100.00
+summary:    Regalos perfectos de navidad para ellas que puedes comprar por menos de $100.000
 categories: inspiracion
 ---
 
